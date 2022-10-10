@@ -33,7 +33,7 @@ data-512-homework_1
 
 ## Dataset Description
 
-data :
+data:
 1. dinosaur.csv: A raw CSV file containing the list of Dinosaur names and the corresponding articles url link from Wikipedia.
    Link: https://docs.google.com/spreadsheets/d/1zfBNKsuWOFVFTOGK8qnTr2DmHkYK4mAACBKk1sHLt_k/edit
 2. all_access_data.json: An intermediary data file generated from the source code in jupyter notebook that contains all access data from 2015-07 to 2022-09 before calculating the cumulative sum of page traffic.
@@ -41,11 +41,10 @@ data :
 4. dino_monthly_mobile_201507-202209.json : Generated from the jupyter notebook, it constitutes monthly data for mobile-app and mobile-web access type.
 5. dino_monthly_cumulative_201507-202209.json : Generated from the jupyter notebook, it constitutes monthly data of all the access types with a cumulative sum of the page traffic.
 
-output :
+output:
 1. maximum_minimum_average.png : Time series graph for the dinosaur articles that have the highest average page requests and the lowest average page requests for desktop and mobile access type.
 2. top_ten_peak_page_views.png : Time series graph for the top 10 dinosaur articles by peak page views for the given time period by access type.
 3. fewest_month_views.png : Time series graph to show dinosaur articles that have the fewest months of page traffic data.
-source:
 
 code:
 wikipedia_article_traffic_analysis.ipnyb : The jupyter notebook illustrating the entire source code and description of the analysis in step-by-step process. Starting from data acquisition using Pageviews API to cleaning the data and finally performing the needed analysis to generate the graphical plots.
