@@ -47,4 +47,5 @@ output:
 3. fewest_month_views.png : Time series graph to show dinosaur articles that have the fewest months of page traffic data.
 
 code:
+
 wikipedia_article_traffic_analysis.ipnyb : The jupyter notebook illustrating the entire source code and description of the analysis in step-by-step process. Starting from data acquisition using Pageviews API to cleaning the data and finally performing the needed analysis to generate the graphical plots.
