@@ -37,7 +37,7 @@ data :
 1. Raw Data -> dinosaur.csv : A CSV file containing the list of Dinosaur names and the corresponding articles url link from Wikipedia.
    Link: https://docs.google.com/spreadsheets/d/1zfBNKsuWOFVFTOGK8qnTr2DmHkYK4mAACBKk1sHLt_k/edit
 
-Below datasets are generated from source code in jupyter notebook for analysis.
+<i> Below datasets are generated from source code in jupyter notebook for analysis. </i>
 2. Intermediate Data -> all_access_data.json : An intermediary data file that contains all access data from 2015-07 to 2022-09 before calculating the cumulative sum of page traffic.
 
 3. Output Data ->
