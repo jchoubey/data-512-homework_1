@@ -13,6 +13,7 @@ Source Links:
 
 ## Project Structure
 
+'''bash
 data-512-homework_1
 ├── data
 │   ├── dinosaur.csv
