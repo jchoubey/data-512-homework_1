@@ -34,24 +34,12 @@ data-512-homework_1
 ## Dataset Description
 
 data :
-1. Raw Data -> 
-   
-   dinosaur.csv : A CSV file containing the list of Dinosaur names and the corresponding articles url link from Wikipedia.
+1. dinosaur.csv: A raw CSV file containing the list of Dinosaur names and the corresponding articles url link from Wikipedia.
    Link: https://docs.google.com/spreadsheets/d/1zfBNKsuWOFVFTOGK8qnTr2DmHkYK4mAACBKk1sHLt_k/edit
-
-<i> Below datasets are generated from source code in jupyter notebook for analysis. </i>
-
-2. Intermediate Data -> 
-
-   all_access_data.json : An intermediary data file that contains all access data from 2015-07 to 2022-09 before calculating the cumulative sum of page traffic.
-
-3. Output Data ->
-
-    a. dino_monthly_desktop_201507-202209.json : Generated from the jupyter notebook, it constitutes monthly data for desktop access type.
-    
-    b. dino_monthly_mobile_201507-202209.json : Generated from the jupyter notebook, it constitutes monthly data for mobile-app and mobile-web access type.
-    
-    c. dino_monthly_cumulative_201507-202209.json : Generated from the jupyter notebook, it constitutes monthly data of all the access types with a cumulative sum of the page traffic.
+2. all_access_data.json: An intermediary data file generated from the source code in jupyter notebook that contains all access data from 2015-07 to 2022-09 before calculating the cumulative sum of page traffic.
+3. dino_monthly_desktop_201507-202209.json : Generated from the jupyter notebook, it constitutes monthly data for desktop access type.
+4. dino_monthly_mobile_201507-202209.json : Generated from the jupyter notebook, it constitutes monthly data for mobile-app and mobile-web access type.
+5. dino_monthly_cumulative_201507-202209.json : Generated from the jupyter notebook, it constitutes monthly data of all the access types with a cumulative sum of the page traffic.
 
 output :
 1. maximum_minimum_average.png : Time series graph for the dinosaur articles that have the highest average page requests and the lowest average page requests for desktop and mobile access type.
